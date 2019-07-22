@@ -4,6 +4,8 @@
   "description": "Sample automated testing project",
   "main": "server.js",
   "scripts": {
+    "cypress": "npx cypress open",
+    "record-test": "cypress run --record --key 5d05a26f-6daa-4666-98d1-90c9f9c33cf4",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ragavendra Yarasi",
